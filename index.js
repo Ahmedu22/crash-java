@@ -68,7 +68,56 @@ console.log(numbers)
 
 // Array.of(), Array.from()
 
+// Array methods
+
+// const numbers = [4,5,7,8];
+
+// add items at the end
+numbers.push(99);
+// add items on the begening 
+numbers.unshift(77);
+// remove first item on the list
+numbers.shift()
+// remove last item on the list
+numbers.pop()
+//  console.log(numbers)
+
+// .indexOf
+const fruits = ['🍉','🍌','🍍'];
+// copy/ the spread operator
+const newFriuts =[...fruits];
+console.log(newFriuts);
+
+
+
 // .function
 
 // .objects
+// opject literal
+let empty = {}
+let midPoint = {x: 2, y: 3};
+midPoint.p = 7
+delete midPoint.p
+console.log(midPoint)
+
+// opject info
+let info = {
+    course: 'java',
+    level: 'all levels',
+    school: 'zein empower',
+    id: '445522',
+    duration: "7weeks",
+    chapters: {
+        section1: 'basic',
+        section2: 'intermediate',
+        section3: 'advance'
+    }, 
+   msg: function(){ 
+    console.log('Hello')
+   },
+   studentId: [46,76,3]
+}
+console.log(info)
+
+
 // .anthing else which is not primitive
