@@ -165,6 +165,103 @@ else{
 
 
 // 2. switch
+//  let day = 'saturday'
+//  switch(day){
+//     case 'saturday':
+//         console.log('its saturady');
+//         break;
+
+//     case 'sunday':
+//         console.log('its sunday');
+//         break;
+
+//     default:
+//         console.log('not invalid');
+//  }
+
+let date = new Date();
+let day = date.getMonth();
+
+switch(day){
+    case 1:
+        console.log('its monday');
+        break;
+
+        case 2:
+        console.log('its tuesday');
+        break;
+
+        case 3:
+        console.log('its wednesday');
+        break;
+        
+        case 4:
+        console.log('its thirsday');
+        break;
+
+        case 5:
+        console.log('its friday');
+        break;
+
+        case 6:
+        console.log('its saturday');
+        break;
+
+        case 7:
+        console.log('its sundayday');
+        break;
+        default:
+            console.log('Not invalid');
+}
+
+
+//types of Loops
+// while
+// do while
+// for
+// for/of or for/await
+// for in
+
+//1. while
+
+let count = 0;
+
+while(count < 10){
+
+    console.log(count);
+    count++;
+  
+}
+
+// 2. do while
+let count = 10;
+do{
+console.log(count);
+count--;
+} while(count > 0);
+
+
+// 3.for 
+let fruits =['🍉','🍌','🍍']
+for(let i = 10; 1 < fruits.length; 1++){
+    console.log(fruits[1])
+}
 
 
 // .anthing else which is not primitive
+
+// 4. for in
+
+// for(variable in object){
+
+// }
+
+let info = {
+    name: 'ahmed',
+    age: '23',
+    height: '187',
+    addrees: '220 streat'
+    }
+    for(const property in info){
+        console.log(property + ':') + info[property];
+    }
