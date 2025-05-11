@@ -91,7 +91,30 @@ console.log(newFriuts);
 
 
 // .function
+function hello(){
+    console.log('Assalamu calaikum');
+}
+hello();
 
+function area (a,b){
+    return a * b;
+}
+console.log(area(5,5))
+
+// a and b are called parameter
+// this actual value 5,5 are called argument
+
+// 2.function experation
+const calcula = function(a,b){
+    return a *b;
+}
+console.log(calcula(7,7));
+
+// function scope
+function agee(){
+    console.log('this is function');
+}
+agee();
 // .objects
 // opject literal
 let empty = {}
@@ -118,6 +141,30 @@ let info = {
    studentId: [46,76,3]
 }
 console.log(info)
+
+// condationals
+// 1. if and else statement
+let v = 7;
+if(v==7){
+console.log('yes')
+}
+else{
+    console.log("no")
+}
+
+let userInput = prompt('write a number')
+if(userInput >=7){
+    console.log('that a a large number')
+}
+else if(userInput <=7){
+    console.log("that's small numaber")
+}
+else{
+    console.log('no')
+}
+
+
+// 2. switch
 
 
 // .anthing else which is not primitive
